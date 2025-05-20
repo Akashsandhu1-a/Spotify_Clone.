@@ -1,0 +1,41 @@
+name: spotify_clone
+description: A Flutter Spotify Clone App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase & Auth
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  image_picker: ^0.8.7
+
+  # UI & Utilities
+  google_fonts: ^6.1.0
+  audioplayers: ^6.4.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Logo.svg
+    - assets/images/google_icon.png
+    - assets/images/facebook_icon.png
+
+    - assets/images/artists/atif_aslam.jpg
+    - assets/images/artists/diljit.jpg
+    - assets/images/artists/karan.jpg
+    - assets/images/artists/sahir_ali_baga.jpg
+    - assets/images/artists/satindar.jpg
